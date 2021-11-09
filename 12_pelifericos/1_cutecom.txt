@@ -1,0 +1,56 @@
+
+
+/*  Configurar CUTECOM para poder cambiar el puert que quiero abrir */
+
+
+ Para poder indicar a cutecom como abrir un puerto que no me aparece
+en la consola, debo modificar el archivo de configuracion que esta en
+la ruta ~/.config/CuteCom/CuteCom5.conf
+
+ Entonces hago nano ~/.config/CuteCom/CuteCom5.conf y edito el archivo
+en la parte que dice 1\Device=/dev/ttyACM0 <aqui pongo el puerto que quiero>
+
+
+
+
+
+
+ Info sacada de: 
+
+  https://www.mankier.com/1/cutecom
+
+
+  cutecom - Man Page
+graphical serial terminal.
+
+Synopsis
+cutecom
+
+Description
+CuteCom is a graphical serial terminal, like minicom. It is aimed mainly at hardware 
+developers or other people who need a terminal to talk to their devices. It features 
+a lineoriented interface instead of character-oriented, xmodem, ymodem, zmodem support 
+(requires the lrzsz package) and hexadecimal input and output among other things.
+
+Options
+-h,  --help
+prints a short help message
+
+-s,  --session <session_name>
+opens a previously defined session. A new Session with default connection  parameters 
+is created when a session with this name can not be found in  the config file
+
+Files
+~/.config/CuteCom/CuteCom5.conf
+Personal CuteCom configuration file (with sessions stored there also).
+
+See Also
+minicom(1), sz(1).
+
+Author
+CuteCom was originally written by Alexander Neundorf <neundorf@kde.org> and is now maintained by Meinhard Ritscher <cyc1ingsir@gmail.com>.
+
+This manual page was written by Roman I Khimov <roman@khimov.ru>, for the Debian project (but may be used by others).
+
+Info
+September 30, 2016

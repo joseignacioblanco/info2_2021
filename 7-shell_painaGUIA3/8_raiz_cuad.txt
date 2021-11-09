@@ -1,0 +1,22 @@
+/*INFORMACION UTIL QUE SE ADJUNTA PARA EL ARCHIVO 8_raiz_cuad.c*/
+
+1)Para compilar el programa uso el comando:
+gcc -Wall -Werror -std=c90 8_raiz_cuad.c -lm
+
+2)Para ejecutar el programa:
+./a.out
+
+3)Para redireccionar a un archivo la salida estandar:
+./a.out > salida_estandar.txt
+cat salida.txt (para ver el archivo salida.txt)
+
+4)Para redireccionar a un archivo el error estandar:
+./a.out 2> error.txt
+cat error.txt (para ver el archivo error.txt)
+
+5)Para redireccionar la entrada desde un archivo entrada.txt
+./a.out < entrada.txt
+El archivo entrada.txt contiene dentro numeros de todo tipo, letras, etc
+
+6)Para redireccionar la salida de error estandar al archivo /dev/null
+./a.out 2> /dev/null

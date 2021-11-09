@@ -1,0 +1,32 @@
+#
+#============================================================================
+ 
+# NOMBRE       : ejecutar
+# AUTOR        : José Blanco 83621
+# Version      : 1.0
+# Descripción  : me ejecuta el archivo.c que le paso como primer parametro.
+# FECHA        : 25 - abril - 2021
+ 
+#============================================================================
+
+
+#!/bin/bash
+
+
+#NOMBRE_SCRIPT=$0
+
+#PRIMER_PARAMETRO=$1
+
+#SEGUNDO_PARAMETRO=$2
+
+#TERCER_PARAMETRO=$3
+
+#CANT_PARAMETROS=$#
+
+#TODOS_JUNTOS=$*
+
+#TODOS_SEPARADOS=$@
+
+
+
+./a.out

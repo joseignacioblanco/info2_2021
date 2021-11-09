@@ -1,0 +1,33 @@
+#
+#============================================================================
+ 
+# NOMBRE       : compilar
+# AUTOR        : José Blanco 83621
+# Version      : 1.0
+# Descripción  : me compila el archivo.c que le paso como parametro
+#                usando gcc -Wall -Werror -std=c90 --pedantic-errors NOMBRE_ARCHIVO.c
+# FECHA        : 25 - abril - 2021
+ 
+#============================================================================
+
+
+#!/bin/bash
+
+
+#NOMBRE_SCRIPT=$0
+
+NOMBRE_ARCHIVO=$1  #PRIMER_PARAMETRO
+
+#SEGUNDO_PARAMETRO=$2
+
+#TERCER_PARAMETRO=$3
+
+#CANT_PARAMETROS=$#
+
+#TODOS_JUNTOS=$*
+
+#TODOS_SEPARADOS=$@
+
+
+
+gcc -Wall -Werror -std=c90 --pedantic-errors $NOMBRE_ARCHIVO

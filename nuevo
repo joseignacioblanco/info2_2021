@@ -1,0 +1,32 @@
+#
+#============================================================================
+ 
+# NOMBRE       : nuevo
+# AUTOR        : José Blanco 83621
+# Version      : 1.0
+# Descripción  : me crea un nuevo archivo nombre.c con un modelo de hola mundo
+# FECHA        : 25 - abril - 2021
+ 
+#============================================================================
+
+
+#!/bin/bash
+
+
+#NOMBRE_SCRIPT=$0
+
+NOMBRE_ARCHIVO=$1  #PRIMER_PARAMETRO
+
+#SEGUNDO_PARAMETRO=$2
+
+#TERCER_PARAMETRO=$3
+
+#CANT_PARAMETROS=$#
+
+#TODOS_JUNTOS=$*
+
+#TODOS_SEPARADOS=$@
+
+
+cp /home/goye/Escritorio/codigos_c/plantilla_1.c  $NOMBRE_ARCHIVO
+vim $NOMBRE_ARCHIVO

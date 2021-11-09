@@ -1,0 +1,18 @@
+
+
+
+    * El archivo planilla_1.c contiene un hola mundo preparado para comenzar a programar.-
+
+    * El archivo nuevo es un script para poder abrir automaticamente con vim una planilla
+      con el nombre pasado por argumento ejemplo: "nueo mondongo.c" me creara un archivo que
+      contiene dentro de el al archivo planilla_1.c listo para comenzar a progrmar. el archivo
+      va a ser creado en el directorio actual donde estoy parado.-
+
+    * compilar mondongo.c : es el comando que va a responder a compilar con las banderas
+      gcc -Wall -Werror -std=c90 mondongo.c. El archivo compilar es un script que recibe
+      como parametro el archivo que quiero compilar pero no va servir si tengo que enlazar
+      contra alguna biblioteca por ejemplo -lm o -lWiringPi.-
+
+    * ejecutar es un script que cuando lo pongo como comando en la terminal me va a ejecutar
+      el arrchivo a.out con el comando de bash ./a.out o sea que tengo que estar parado en el
+      directorio actual.

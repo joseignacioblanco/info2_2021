@@ -1,0 +1,30 @@
+#
+#============================================================================
+ 
+# NOMBRE       :ssh_raspi 
+# AUTOR        : José Blanco 83621
+# Version      : 1.0
+# Descripción  : escript para entrar a ala raspberry por ssh con usuario y cont.
+# FECHA        : 25 - abril - 2021
+ 
+#============================================================================
+
+
+#!/bin/bash
+
+
+#NOMBRE_SCRIPT=$0
+
+#PASSWORD=$1  #PRIMER_PARAMETRO
+
+#SEGUNDO_PARAMETRO=$2
+
+#TERCER_PARAMETRO=$3
+
+#CANT_PARAMETROS=$#
+
+#TODOS_JUNTOS=$*
+
+#TODOS_SEPARADOS=$@
+
+ssh pi@192.168.1.19

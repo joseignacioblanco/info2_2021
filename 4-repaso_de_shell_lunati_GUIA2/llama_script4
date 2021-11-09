@@ -1,0 +1,10 @@
+#este escript muestra que se puede llamar un escrit dentro 
+# de otro escript
+
+
+
+#!/bin/bash
+
+echo "llamando al script_4.sh"
+
+./script_4.sh mondongs

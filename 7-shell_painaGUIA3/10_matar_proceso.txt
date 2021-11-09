@@ -1,0 +1,23 @@
+/*
+ * ============================================================================
+ *
+ * NOMBRE       :
+ * AUTOR        : José Blanco 83621
+ * Version      : 1.0
+ * Descripción  : 
+ * FECHA        :
+ *
+ * ============================================================================
+ */
+
+
+
+
+Abrir una terminal, ejecutar un programa y matarlo con el comando kill, por ejemplo:
+a) ejecutar gedit en segundo plano
+> gedit &
+b) listar los procesos y filtrar la salida con grep
+> ps aux | grep gedit
+c) anotar el n´umero de proceso del programa gedit
+d) matar el proceso
+> kill -KILL <PID>   tambien puede ser con -9 o con -15
