@@ -15,4 +15,4 @@
 
     * ejecutar es un script que cuando lo pongo como comando en la terminal me va a ejecutar
       el arrchivo a.out con el comando de bash ./a.out o sea que tengo que estar parado en el
-      directorio actual.
+      directorio actual..
